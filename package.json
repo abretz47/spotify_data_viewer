@@ -1,0 +1,24 @@
+{
+  "name": "spotify_data_viewer",
+  "version": "1.0.0",
+  "description": "An app to visualize Spotify public data",
+  "main": "server.js",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-bootstrap": "^2.5.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "spotify",
+    "ReST",
+    "data",
+    "visualize"
+  ],
+  "author": "MIT",
+  "license": "MIT"
+}
