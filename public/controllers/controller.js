@@ -13,7 +13,6 @@ myApp.controller("AppCtrl",['$scope','$http',
 		 	$scope.id = item.id;
 		 }
 		 $scope.getAlbumImg = function(idx){
-		 	console.log('hi hi');
 		 	return $scope.albums[idx].images[0].url;
 		 }
 		function successCallBack(res){
@@ -44,7 +43,6 @@ myApp.controller("AppCtrl",['$scope','$http',
 			console.log(err);
 		}
 		function successInfoSearch(res){
-			console.log(res.data);
 			return res.data;
 		}
 		function errorInfoSearch(err){
